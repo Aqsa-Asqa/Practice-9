@@ -21,16 +21,19 @@ h1{font-family:'Pacifico',cursive;font-size:clamp(22px,6vw,34px);text-align:cent
 @keyframes glowpulse{from{text-shadow:0 0 12px #39ff14}to{text-shadow:0 0 32px #39ff14,0 0 60px #00c853}}
 .wave{display:inline-block;animation:waveHand .8s ease-in-out infinite alternate}
 @keyframes waveHand{from{transform:rotate(-10deg)}to{transform:rotate(20deg)}}
+.big-emoji{font-size:56px;text-align:center;display:block;margin-bottom:8px;animation:popIn .5s ease;filter:drop-shadow(0 0 12px #00ff88)}
+@keyframes popIn{from{transform:scale(0)}to{transform:scale(1)}}
 .cake{font-size:72px;display:inline-block;animation:bounce 1.2s ease-in-out infinite alternate,vibe .18s linear infinite;filter:drop-shadow(0 0 18px #00ff88)}
 @keyframes bounce{from{transform:translateY(0)}to{transform:translateY(-14px)}}
 @keyframes vibe{0%,100%{transform:translate(0,0)}25%{transform:translate(-2px,1px)}75%{transform:translate(2px,-1px)}}
-.big-emoji{font-size:56px;text-align:center;display:block;margin-bottom:8px;animation:popIn .5s ease;filter:drop-shadow(0 0 12px #00ff88)}
-@keyframes popIn{from{transform:scale(0)}to{transform:scale(1)}}
 .hearts{text-align:center;font-size:26px;letter-spacing:4px;animation:vibe .14s linear infinite;filter:drop-shadow(0 0 6px #00ff88);margin:8px 0}
 .celebrate{text-align:center;font-size:30px;letter-spacing:2px;margin:6px 0}
 .sign{font-family:'Pacifico',cursive;font-size:20px;text-align:center;color:#00ff88;text-shadow:0 0 12px #39ff14;margin-top:18px}
-.dot-label{color:#00ff88;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:700;text-align:center;margin-bottom:4px}
-.quote-line{border-left:3px solid #00ff88;border-radius:0;padding:10px 16px;margin:12px 0;color:#e8fff2;font-size:15px;line-height:1.8;text-align:left;background:rgba(0,255,136,.06)}
+
+.quote-box{border-left:3px solid #00ff88;border-radius:0;padding:14px 18px;margin:16px 0;background:rgba(0,255,136,.06);text-align:left}
+.quote-box .quote-text{font-size:15px;line-height:1.85;color:#e8fff2;font-style:italic}
+.quote-box .quote-text span{color:#00ff88;font-style:normal;font-weight:700;text-shadow:0 0 8px #39ff14}
+.quote-mark{font-family:'Pacifico',cursive;font-size:36px;color:#00ff88;opacity:.4;line-height:1;display:block;margin-bottom:-8px}
 
 .next-btn{display:block;margin:0 auto;background:linear-gradient(135deg,#00c853,#00ff88);border:none;border-radius:50px;color:#002b10;font-family:'Pacifico',cursive;font-size:16px;padding:15px 38px;cursor:pointer;box-shadow:0 0 24px #39ff14,0 4px 16px rgba(0,0,0,.4);transition:transform .15s,box-shadow .2s;animation:vibe .15s linear infinite}
 .next-btn:hover{transform:scale(1.07);box-shadow:0 0 44px #39ff14}
@@ -54,23 +57,26 @@ h1{font-family:'Pacifico',cursive;font-size:clamp(22px,6vw,34px);text-align:cent
 
 <div id="wrap">
 
-  <!-- PAGE 1: NEW PERSONAL MESSAGE -->
+  <!-- PAGE 1: PERSONAL MESSAGE -->
   <div class="page active" id="p1">
     <div class="card center">
       <div style="font-size:48px;margin-bottom:6px"><span class="wave">👋</span></div>
       <div class="hitext">Hiiii Shoaib!</div>
       <div style="height:14px"></div>
-      <div class="quote-line">
-        Aj ka birthday wish un sary moments k nam... which we cherished together 💚<br><br>
-        And I love them most. 🥹
+      <div class="quote-box">
+        <span class="quote-mark">"</span>
+        <p class="quote-text">
+          Today's birthday wish is dedicated to every moment we <span>cherished together</span> —
+          the laughs, the memories, the little things that made us,
+          <span>us.</span> Those moments live in my heart forever. 💚
+        </p>
       </div>
-      <p class="sub" style="margin-top:14px">
-        Har woh lamha jo hamaray darmiyan guzra —<br>
-        woh sab is wish ka hissa hai 🌿✨
+      <p class="sub" style="margin-top:12px">
+        A celebration of the beautiful moments that time can never erase. 💚 🌿✨
       </p>
       <div class="hearts" style="margin-top:12px">💚💚💚💚💚</div>
     </div>
-    <button class="next-btn" onclick="goTo(2)">Un Lamhon Ko Yaad Karen 🌿</button>
+    <button class="next-btn" onclick="goTo(2)">Keeping the memories, Moving with a vibe🌿</button>
     <div class="dots" id="dots1"></div>
   </div>
 
@@ -171,7 +177,7 @@ let cur=1;
 function renderDots(){
   for(let pi=1;pi<=TOTAL;pi++){
     const el=document.getElementById('dots'+pi);
-    if(!el)return;
+    if(!el)continue;
     el.innerHTML='';
     for(let i=1;i<=TOTAL;i++){
       const d=document.createElement('div');
