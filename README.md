@@ -67,8 +67,8 @@ h1{font-family:'Pacifico',cursive;font-size:clamp(22px,6vw,34px);text-align:cent
         <span class="quote-mark"></span>
         <p class="quote-text">
           Today's birthday wish is dedicated to every moment we <span>cherished together</span> —
-          the laughs, the memories, the little things that made us,
-          <span>us.</span> Those moments live in my heart forever. 💚
+          the laughs, the memories, the little things that made us close.
+      </span> Those moments live in my heart forever. 💚
         </p>
       </div>
       <p class="sub" style="margin-top:12px">
