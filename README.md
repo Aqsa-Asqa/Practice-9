@@ -64,7 +64,7 @@ h1{font-family:'Pacifico',cursive;font-size:clamp(22px,6vw,34px);text-align:cent
       <div class="hitext">Hiiii Shoaib!</div>
       <div style="height:14px"></div>
       <div class="quote-box">
-        <span class="quote-mark">"</span>
+        <span class="quote-mark"></span>
         <p class="quote-text">
           Today's birthday wish is dedicated to every moment we <span>cherished together</span> —
           the laughs, the memories, the little things that made us,
