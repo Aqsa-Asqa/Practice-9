@@ -107,7 +107,7 @@ Tum mere liye bilkul waisy hi ho
         May Allah make things easy for you 🤍
 May He remove your worries and replace them with calm and strength 💚
 
-Just remember, I am always here for you — today, tomorrow, and always ✨ (Gussy wala Time nikal k🫣)
+Just remember, I am always here for you — today, tomorrow, and always ✨ (Gussa na karna ab mjhpe dobara🥺)
       </p>
     </div>
     <p class="sub" style="margin-top:12px">
