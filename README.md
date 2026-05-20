@@ -121,16 +121,15 @@ Just remember, I am always here for you — today, tomorrow, and always ✨ (Gus
   <div class="page" id="p4">
     <div class="card center">
       <span class="big-emoji">👑</span>
-      <h1>Happy Birthday<br>!!..ASQA..!!</h1>
+      <h1>Happy Birthday<br>!!..Payary Larky..!!</h1>
       <div class="hearts">💚💚💚💚💚</div>
       <div class="celebrate">🎉🎊🥳🎈🎁✨</div>
       <p class="sub" style="margin-top:10px">
-        Stay the same crazy, annoying,<br>
-        amazing person you are 💚<br><br>
-        <strong style="color:#00ff88">Forever your… favorite problem 😎</strong>
+        Stay Blessed and May you have more energy to handle my mood swings 😂😂<br><br>
+        <strong style="color:#00ff88">Your Favourite Headache,,,,, Forever😎</strong>
       </p>
       <div class="hearts" style="margin-top:10px">💚💚💚💚💚💚💚</div>
-      <div class="sign" style="margin-top:14px">💚💚 Your Bachaaa 💚💚</div>
+      <div class="sign" style="margin-top:14px">💚💚 Your Chirri 💚💚</div>
     </div>
     <button class="celebbtn" onclick="blast()">🎉 Khushi Manaao Confetti Ke Saath!</button>
     <div class="dots" id="dots4"></div>
