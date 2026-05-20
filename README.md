@@ -104,16 +104,16 @@ Tum mere liye bilkul waisy hi ho
       <span class="big-emoji">🤲</span>
       <h1>Dil Se Dua</h1>
       <p class="sub" style="margin-top:10px">
-        I pray that your life is filled with<br>
-        <strong style="color:#00ff88">happiness, success, and peace.</strong><br><br>
-        May you achieve everything you dream of 🤲✨<br><br>
-        And honestly... I hope we keep fighting<br>
-        like idiots forever 😄<br><br>
-        😌 Because life without irritating you<br>
-        would be... kinda boring.
+        May Allah make things easy for you 🤍
+May He remove your worries and replace them with calm and strength 💚
+
+Just remember, I am always here for you — today, tomorrow, and always ✨ (Gussy wala Time nikal k🫣)
       </p>
     </div>
-    <button class="next-btn" onclick="goTo(4)">Sabse Khaas Hissa Dekhein 🎂</button>
+    <p class="sub" style="margin-top:12px">
+        May Allah always keep you close to His mercy and protect your heart from every pain. 💚✨
+      </p>
+    <button class="next-btn" onclick="goTo(4)">Click to see Special Part🎂</button>
     <div class="dots" id="dots3"></div>
   </div>
 
