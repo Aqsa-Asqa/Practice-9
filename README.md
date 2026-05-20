@@ -83,18 +83,18 @@ h1{font-family:'Pacifico',cursive;font-size:clamp(22px,6vw,34px);text-align:cent
   <div class="page" id="p2">
     <div class="card center">
       <span class="big-emoji">💌</span>
-      <h1>Tum Khaas Ho!</h1>
+      <h1>Important Note!</h1>
       <p class="sub" style="margin-top:10px">
         Some people become important slowly… and then suddenly you realize you can’t imagine your days without them.
-Tum mere liye bilkul waise hi ho.
+Tum mere liye bilkul waisy hi ho
       </p>
     </div>
     <p class="sub" style="margin-top:12px">
-        You are more than a Friend, More than Love, A flower in my Garden and I want to see you ever smiled 💚 💚✨
+        You are more than a Friend, More than Love, A flower in my Garden and I want to see you ever-Green💚💚✨
       </p>
       <div class="hearts" style="margin-top:12px">💚💚💚💚💚</div>
     </div>
-    <button class="next-btn" onclick="goTo(3)">Dil Ki Baat Sunein 🤍</button>
+    <button class="next-btn" onclick="goTo(3)">Click to Read my 💚</button>
     <div class="dots" id="dots2"></div>
   </div>
 
